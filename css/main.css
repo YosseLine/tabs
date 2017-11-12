@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("http://data.whicdn.com/images/29449532/large.png");
+}
+.container{
+  width: 900px;
+  margin: 0 auto;
+  display: block;
+}
+
+#initial-section{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+figure.crown{
+  display: inline-block;
+}
+#initial-section .crown img{
+  width: 150px;
+  transform: translateX(255%);
+}
+
+.title{
+  font-size: 3em;
+  text-align: center;
+  font-family: 'Oleo Script', cursive;
+  font-weight: 200;
+}
+
+#initial-section p.info{
+  font-size: 1em;
+}
+
+#section-content .container-tabs{
+  width: 100%;
+  font-size: 1.5em;
+  color: white;
+  border-bottom: 2px solid #9fced9;
+}
+.container-tabs li{
+  list-style: none;
+  display: inline-block;
+}
+.tab{
+  color: #fff;
+  font-weight: 600;
+  background-color: #9fced9;
+  border-radius: 30%;
+  border-bottom: none;
+  padding: 10px;
+  width: 120px;
+}
+.div-img, .div-text{
+  display: inline-block;
+}
+.div-img img{
+  width: 200px;
+  margin-bottom: 20px;
+}
+.content{
+  margin-top: 20px;
+}
+.content-text{
+  position: absolute;
+  padding-left: 36px;
+  display: inline-block;
+  width: 680px;
+}
+.content-text h3{
+  text-align: center;
+  font-family: 'Oleo Script', cursive;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
